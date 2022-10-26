@@ -1,0 +1,2 @@
+Extensión de Vscode al hacer un string y le pones ${} la convierte ``
+Template String Converter
