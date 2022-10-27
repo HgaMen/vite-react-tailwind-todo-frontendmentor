@@ -25,12 +25,12 @@ const Header = () => {
                 <h1 className="text-3xl font-semibold uppercase tracking-[0.5rem] text-white">
                     Todo
                 </h1>
-                <button onClick={() => setDarkMode(!darkMode)}>
+                <button onClick={() => setDarkMode(!darkMode)}> 
                     {darkMode ? <IconSun /> : <IconMoon />}
                 </button>
             </div>
         </header>
     );
-};
+}; 
 
 export default Header;
